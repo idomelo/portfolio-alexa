@@ -1298,7 +1298,6 @@ font-size: var(--small-font-size);
     .footer__copy {
         margin-top: 4.5rem;
     }
-    /* 2:30:22 */
 }
 
 /* For large devices */
@@ -1326,7 +1325,6 @@ font-size: var(--small-font-size);
     }
     .swiper-portfolio-icon {
         font-size: 2.5rem;
-        /* font-size: 3.5rem; */
     }
     /* .swiper-button-prev {
         left: -3.5rem;
