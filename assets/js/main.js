@@ -136,10 +136,11 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
     },
 
     // If we need pagination
-    // pagination: {
-    //     el: '.swiper-pagination',
-    //     clickable: true,
-    // },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+        // dynamicBullets: true,
+    },
     
     // And if we need scrollbar
     // scrollbar: {
@@ -151,7 +152,6 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 
 
 let swiperTestimonial = new Swiper('.testimonial__container', {
-    // cssMode: true,
     loop: true,
     loopedSlides: 3,
     spaceBetween: 48,

@@ -97,7 +97,7 @@ body.dark-theme {
 }
 
 .change-theme {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--title-color);
     margin-right: var(--mb-1);
     cursor: pointer;
@@ -209,7 +209,7 @@ header {
 }
 
 .nav__toggle {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -763,13 +763,8 @@ header {
 /*==================== PORTFOLIO ====================*/
 
 
-.portfolio__container {
-    /* overflow: initial; */
-    overflow: hidden;
-}
-
 .portfolio__content {
-    padding: 0 1.5rem;
+    padding: 2.5rem 1.5rem;
 }
 
 .portfolio__img {
@@ -804,15 +799,19 @@ header {
 }
 
 .swiper-button-prev {
-    left: -.5rem;
+    left: -.4rem;
 }
 
 .swiper-button-next {
-    right: -.5rem;
+    right: -.4rem;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -2.5rem;
+    bottom: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--title-color);
 }
 
 .swiper-pagination-bullet-active{
