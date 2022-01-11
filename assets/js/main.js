@@ -128,6 +128,10 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
     loopedSlides: 3,
     spaceBetween: 48,
     grabCursor: true,
+
+    // autoplay: {
+    //     delay: 5000,
+    // },
   
     // Navigation arrows
     navigation: {
